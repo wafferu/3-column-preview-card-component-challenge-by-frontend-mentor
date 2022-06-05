@@ -1,75 +1,88 @@
 <!DOCTYPE html>
+<!-- set the language of the webpage -->
 <html lang="en">
   <head>
+    <!-- set the charset that the site will use -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- display the site's logo -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <!-- This is the site's title -->
     <title>Frontend Mentor | 3-column preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <!-- This is the site's main style -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- This is the site's font style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- This is the site's main contents -->
     <section class="threeColPrevCardComp" role="main">
+      <!-- The first column of the card -->
       <div class="threeColPrevCardCompBox">
         <div class="container">
           <div class="threeColPrevCardCompCon">
             <img src="./images/icon-sedans.svg" alt="icon-sedans" />
           </div>
-          <h1>Sedans</h1>
-          <p>
+          <h1 class="white-text">Sedans</h1>
+          <p class="white-text">
             Choose a sedan for its affordability and excellent fuel economy.
             Ideal for cruising in the city or on your next road trip.
           </p>
+          <div class="threeColPrevCardCompCon">
+            <a href="#" class="orange-text">Learn More</a>
+          </div>
         </div>
       </div>
+      <!-- The second column of the card -->
       <div class="threeColPrevCardCompBox">
         <div class="container">
           <div class="threeColPrevCardCompCon">
             <img src="./images/icon-suvs.svg" alt="icon-suvs" />
           </div>
-          <h1>SUVs</h1>
-          <p>
+          <h1 class="white-text">SUVs</h1>
+          <p class="white-text">
             Take an SUV for its spacious interior, power, and versatility.
             Perfect for your next family vacation and off-road adventures.
           </p>
+          <div class="threeColPrevCardCompCon">
+            <a href="#" class="cyan-text-1">Learn More</a>
+          </div>
         </div>
       </div>
+      <!-- The third column of the card -->
       <div class="threeColPrevCardCompBox">
         <div class="container">
           <div class="threeColPrevCardCompCon">
             <img src="./images/icon-luxury.svg" alt="icon-luxury" />
           </div>
-          <h1>Luxury</h1>
-          <p>
+          <h1 class="white-text">Luxury</h1>
+          <p class="white-text">
             Cruise in the best car brands without the bloated prices. Enjoy the
             enhanced comfort of a luxury rental and arrive in style.
           </p>
+          <div class="threeColPrevCardCompCon">
+            <a href="#" class="cyan-text-2">Learn More</a>
+          </div>
         </div>
       </div>
     </section>
 
+    <!-- This is my attribution -->
     <div class="attribution" role="contentinfo">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/wafferu">Wafferu</a>.
     </div>
   </body>
 </html>

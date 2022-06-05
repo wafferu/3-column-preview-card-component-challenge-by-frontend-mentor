@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Element Styles--------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+p, button{
+  font-size: 10.938rem;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Class Styles----------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  padding: 3.125rem;
+}
+
+.white-text {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.orange-text {
+  color: hsl(31, 77%, 52%);
+}
+
+.cyan-text-1 {
+  color: hsl(184, 100%, 22%);
+}
+
+.cyan-text-2 {
+  color: hsl(179, 100%, 13%);
+}
+
+.threeColPrevCardComp {
+  width: 87.75vw;
+  margin: 5.438rem auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.threeColPrevCardCompBox:first-child {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.threeColPrevCardCompBox h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-top: 2.563rem;
+}
+
+.threeColPrevCardCompBox p {
+  margin-top: 2.25rem;
+}
+
+.threeColPrevCardCompBox:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.threeColPrevCardCompBox:last-child {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.threeColPrevCardCompBox
+.threeColPrevCardCompCon:last-child {
+  padding: 1.125rem 0;
+  margin-top: 1.688rem;
+}
+
+.threeColPrevCardCompBox
+.threeColPrevCardCompCon:last-child a{
+  background-color: hsl(0, 0%, 95%);
+  padding: 1.125rem 2rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Media Query------------------------------------------------------------------ */
+/* ----------------------------------------------------------------------------- */
+
+@media (min-width: 1048px) {
+  .threeColPrevCardComp {
+    width: 57.5rem;
+  }
+}
+
+@media (min-width: 718px) {
+  .threeColPrevCardCompBox
+  .threeColPrevCardCompCon:last-child a{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 720px) {
+  .threeColPrevCardComp {
+    display: flex;
+  }
+}
